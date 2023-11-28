@@ -2,7 +2,7 @@
 
 sudo apt update
 
-packages=(btop kate realtek-rtl88xxau-dkms)
+packages=(btop kate bat realtek-rtl88xxau-dkms)
 
 # @ is needed in order to get all elemets of the array
 for package in ${packages[@]}; do
